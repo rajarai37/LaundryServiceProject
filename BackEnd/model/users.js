@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-const { schema } = mongoose;
+const { Schema } = mongoose;
 
-const userSchema = new schema({
+const userSchema = new Schema({
   name: { type: String, require: true },
   email: { type: String, unique: true, require: true },
   mobile: { type: Number, unique: true, require: true },

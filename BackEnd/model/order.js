@@ -1,21 +1,12 @@
 const { ObjectId } = require("bson");
 const mongoose = require("mongoose");
-const { schema } = mongoose;
+const { Schema } = mongoose;
 
-const operationSchema = new Schema({
-  operation: { type: String, require: true }, //Washing, iron, folding, chemical wash
-});
-
-const itemsSchema = new schema({
-  cloth: { type: string }, //Shirt, T-shirt, jeans, jogger,boxer,others, etc....
-  quantity: { type: number },
-  operation: { type: [operationSchema] },
-  price: { type: Number },
-});
-
-const orderSchema = new schema({
+const orderSchema = new Schema({
   user: { type: Schema.Types.ObjectId, ref: "User" },
-  item: { type: [itemsSchema] },
+  status: { type: String },
+  items: { type: Array, default: [] },
+  date: { type: Date, default: Date.now },
 });
 
 const Order = mongoose.model("Order", orderSchema);
