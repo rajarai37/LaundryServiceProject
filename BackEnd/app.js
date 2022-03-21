@@ -16,11 +16,12 @@ mongoose
   .catch((err) => console.log(err));
 SECRET = "RESTAPI";
 const loginRoutes = require("./routes/login");
+const orderRoutes = require("./routes/order");
 
 const app = express(); // create a new express application
 app.use(cors());
 
-app.use("/posts", (req, res, next) => {
+app.use("/create", (req, res, next) => {
   var token = req.headers.authorization.split("Bearer ")[1];
   if (!token) {
     return res.status(401).json({
@@ -40,6 +41,8 @@ app.use("/posts", (req, res, next) => {
     }
   });
 });
+
 app.use("/", loginRoutes);
+app.use("/", orderRoutes);
 
 app.listen(5000, () => console.log("server started"));
