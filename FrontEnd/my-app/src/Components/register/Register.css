@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+.main-body {
+  height: 766px;
+  width: 1420px;
+}
+.left-body {
+  position: absolute;
+  /* Layout Properties */
+  top: 81px;
+  left: 0px;
+  width: 382px;
+  height: 766px;
+}
+.right-body {
+  position: absolute;
+  /* Layout Properties */
+  top: 81px;
+  left: 402px;
+  width: 1038px;
+  height: 766px;
+  /* UI Properties */
+  background: #f8f9ff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.left-body p {
+  position: absolute;
+  top: 259px;
+  left: 69px;
+  width: 284px;
+  height: 197px;
+
+  text-align: left;
+  font: normal normal 900 62px/80px Avenir;
+  letter-spacing: 2.48px;
+  color: #5861ae;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.left-body strong {
+  position: absolute;
+  /* Layout Properties */
+  top: 433px;
+  left: 72px;
+  width: 175px;
+  height: 59px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 20px/32px Avenir;
+  letter-spacing: 0.8px;
+  color: #565657;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.left-body span {
+  position: absolute;
+  /* Layout Properties */
+  top: 632px;
+  left: 72px;
+  width: 171px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 16px/26px Avenir;
+  letter-spacing: 0.64px;
+  color: #565657;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.left-body button {
+  position: absolute;
+  /* Layout Properties */
+  top: 674px;
+  left: 69px;
+  width: 150px;
+  height: 50px;
+  /* UI Properties */
+  border: 2px solid #5861ae;
+  border-radius: 4px;
+  opacity: 1;
+}
+.left-body button a {
+  text-align: center;
+  font: normal normal bold 15px/20px Open Sans;
+  letter-spacing: 0.3px;
+  color: #5861ae;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.center {
+  position: absolute;
+  /* Layout Properties */
+  top: 289px;
+  left: 400px;
+  width: 2px;
+  height: 183px;
+  background-color: #5861ae;
+  box-shadow: 0px -3px 6px #0000000b;
+  opacity: 0.5;
+}
+
+.right-body h3 {
+  position: absolute;
+  /* Layout Properties */
+  top: 45px;
+  left: 63px;
+  width: 157px;
+  height: 44px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 32px/60px Avenir;
+  letter-spacing: 1.28px;
+  color: #5861ae;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.right-body input {
+  border: none;
+  background-color: #e8eaff1a;
+}
+
+.right-body input:focus {
+  outline: none;
+}
+
+.right-body .imp10 {
+  position: absolute;
+  left: 68.5px;
+  width: 382px;
+  height: 2px;
+  background-color: #989898;
+}
+
+.right-body .imp20 {
+  position: absolute;
+  left: 568.5px;
+  width: 382px;
+  height: 2px;
+  background-color: #989898;
+}
+.right-body .line1 {
+  position: absolute;
+  top: 180px;
+}
+
+.right-body .line2 {
+  position: absolute;
+  top: 276px;
+}
+
+.right-body .line3 {
+  position: absolute;
+  top: 373px;
+}
+
+.right-body .line4 {
+  position: absolute;
+  top: 469px;
+}
+
+.right-body .imp1 {
+  position: absolute;
+  /* Layout Properties */
+  top: 140px;
+  left: 68.5px;
+  width: 322px;
+  height: 27px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 17px/27px Open Sans;
+  letter-spacing: 0.6px;
+  color: #77838f;
+  opacity: 1;
+}
+
+.right-body .imp2 {
+  position: absolute;
+  /* Layout Properties */
+  top: 139px;
+  left: 568.5px;
+  width: 322px;
+  height: 27px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 17px/27px Open Sans;
+  letter-spacing: 0.6px;
+  color: #77838f;
+  opacity: 1;
+}
+
+.right-body .imp3 {
+  position: absolute;
+  /* Layout Properties */
+  top: 236px;
+  left: 66.5px;
+  width: 322px;
+  height: 27px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 17px/27px Open Sans;
+  letter-spacing: 0.6px;
+  color: #77838f;
+  opacity: 1;
+}
+
+.right-body .imp4 {
+  position: absolute;
+  /* Layout Properties */
+  top: 234px;
+  left: 568.5px;
+  width: 322px;
+  height: 27px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 17px/27px Open Sans;
+  letter-spacing: 0.6px;
+  color: #77838f;
+  opacity: 1;
+}
+
+.right-body .imp5 {
+  position: absolute;
+  /* Layout Properties */
+  top: 333px;
+  left: 68.5px;
+  width: 322px;
+  height: 27px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 17px/27px Open Sans;
+  letter-spacing: 0.6px;
+  color: #77838f;
+  opacity: 1;
+}
+
+.right-body .imp6 {
+  position: absolute;
+  /* Layout Properties */
+  top: 333px;
+  left: 566.5px;
+  width: 322px;
+  height: 27px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 17px/27px Open Sans;
+  letter-spacing: 0.6px;
+  color: #77838f;
+  opacity: 1;
+}
+
+.right-body .imp7 {
+  position: absolute;
+  /* Layout Properties */
+  top: 429px;
+  left: 68.5px;
+  width: 322px;
+  height: 27px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 17px/27px Open Sans;
+  letter-spacing: 0.6px;
+  color: #77838f;
+  opacity: 1;
+}
+
+.right-body .imp8 {
+  position: absolute;
+  top: 429px;
+  left: 566.5px;
+  width: 322px;
+  height: 27px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 17px/27px Open Sans;
+  letter-spacing: 0.6px;
+  color: #77838f;
+  opacity: 1;
+}
+
+.right-body .checkbox {
+  position: absolute;
+  /* Layout Properties */
+  top: 585px;
+  left: 218px;
+  width: 22px;
+  height: 22px;
+  /* UI Properties */
+  border: 1px solid #707070;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.right-body .terms {
+  position: absolute;
+  /* Layout Properties */
+  top: 585px;
+  left: 252px;
+  width: 566px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal normal 14px/20px Open Sans;
+  letter-spacing: 0.49px;
+  color: #5861ae;
+  opacity: 1;
+}
+
+.right-body button {
+  position: absolute;
+  /* Layout Properties */
+  top: 648.5px;
+  left: 437.25px;
+  width: 150px;
+  height: 50px;
+  /* UI Properties */
+  background-color: #5861ae;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.right-body .button {
+    position: absolute;
+    /* Layout Properties */
+    top: 648.5px;
+    left: 437.25px;
+    width: 150px;
+    height: 50px;
+    /* UI Properties */
+    background-color: #5861ae;
+    border-radius: 4px;
+    opacity: 1;
+    color: #FFFFFF;
+  }
+
+.right-body a {
+  text-decoration: none;
+  font: normal normal bold 15px/20px Open Sans;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+}

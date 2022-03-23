@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+.read {
+  padding: 50px 0;
+  margin: 20px 0;
+  border: 2px snow;
+  border-top: 3px solid #5861ae;
+  background-color: #f8f9ff;
+  position: absolute;
+  top: 849px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  flex-direction: column;
+}
+
+.read h2 {
+  color: #5861ae;
+}
+
+.lastpart {
+  position: absolute;
+  top: 980px;
+  left: 0px;
+  width: 100%;
+  height: 197px;
+}
+
+/* ----------------- */
+
+.center-home {
+  width: 50%;
+}
+
+.about,
+.socail {
+  width: 30%;
+}
+
+.about {
+  margin-left: 100px;
+}
+
+.copyright {
+  width: 100%;
+  position: absolute;
+  top: 1100px;
+  background-color: #182838;
+  border: 1px solid #707070;
+  padding-top: 12px;
+  color: white;
+  height: 40px;
+}
