@@ -1,0 +1,26 @@
+.asidelogo {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 57px;
+  height: 130vh;
+  background-color: #5861ae;
+  opacity: 1;
+  align-items: center;
+}
+.asidelogo .home {
+  margin-top: 30px;
+}
+.asidelogo .more {
+  margin-top: 25px;
+  width: 57px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+.asidelogo .bar {
+  margin-top: 30px;
+}
