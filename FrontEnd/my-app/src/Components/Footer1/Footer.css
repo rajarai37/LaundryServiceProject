@@ -1,0 +1,10 @@
+.copyright {
+  width: 100%;
+  position: absolute;
+  top: 875px;
+  background-color: #182838;
+  border: 1px solid #707070;
+  padding-top: 12px;
+  color: white;
+  height: 40px;
+}
